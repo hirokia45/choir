@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="668d141b-01d8-4809-9cdd-928d9fdf7683" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/PerformanceHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/PerformanceHistory/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678621139810</updated>
       <workItem from="1678621142895" duration="107000" />
-      <workItem from="1678621316136" duration="34826000" />
+      <workItem from="1678621316136" duration="35144000" />
+      <workItem from="1678725744435" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="adjust style">
       <created>1678707558854</created>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678707747109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="next.config">
+      <created>1678707910713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707910713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +100,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adjust style" />
     <MESSAGE value="remove library" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove library" />
+    <MESSAGE value="next.config" />
+    <option name="LAST_COMMIT_MESSAGE" value="next.config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
