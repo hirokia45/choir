@@ -17,8 +17,8 @@ import * as prismicT from "@prismicio/types";
 const AudioList = ({ slice }: { slice: AudioListSlice }) => {
   console.log(slice);
   return (
-    <section className="my-12">
-      <div className="card w-full bg-base-100 shadow-xl">
+    <section className="my-8 sm:my-12">
+      <div className="card card-compact sm:card-normal w-full bg-base-100 shadow-xl">
         <div className="card-body">
           <div>
             {slice.items.map((audio, index) => (
@@ -45,16 +45,15 @@ const AudioPlayer = ({
   console.log(data);
   return (
     <>
-      <div className="flex justify-between">
-        <div className="flex items-center ml-4 text-md font-medium text-gray-900">
+      <div className="sm:flex justify-between">
+        <div className="mb-4 sm:mb-0 sm:ml-4 flex items-center text-md font-medium text-gray-900">
           <PrismicRichText field={data.title} />
         </div>
 
         <audio
           controls
           id={`audio-id-${"name" in data.audio ? data.audio.name : "piece"}`}
-          className="w-30"
-          style={{ width: "500px" }}
+          className="w-full sm:w-3/4"
         >
           <source
             src={"url" in data.audio ? data.audio.url : ""}

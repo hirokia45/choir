@@ -18,7 +18,7 @@ const Project: FC<{ pageData: ProjectDocument }> = ({ pageData }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Layout title={pageData.data.title!}>
-        <main className="mt-20">
+        <main className="">
           <SliceZone slices={pageData.data.slices} components={components} />
         </main>
       </Layout>

@@ -12,18 +12,18 @@ import {
  * @param { PerformanceHistoryProps }
  */
 const PerformanceHistory = ({ slice }: { slice: PerformanceHistorySlice }) => (
-  <section className="py-8">
+  <section className="pt-4 sm:pt-8 pb-8 sm:pb-12">
     <div className="text-center p-6">
       <div className="text-lg font-medium text-gray-900">
-        Performance History
+        Performance History / 演奏履歴
       </div>
     </div>
     <div className="overflow-x-auto">
       <table className="table table-compact table-auto w-full">
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Event Name</th>
+            <th>Date (日付)</th>
+            <th>Event Name (イベント名)</th>
           </tr>
         </thead>
         <tbody>

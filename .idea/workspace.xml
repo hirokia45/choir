@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="668d141b-01d8-4809-9cdd-928d9fdf7683" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/common/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/project/ProjectCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pieces/[uid].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/projects/[uid].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/slice-simulator.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prismicio.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects/[uid].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/[uid].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/AudioList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/AudioList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/PerformanceHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/PerformanceHistory/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slices/SongSet/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/SongSet/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678621139810</updated>
       <workItem from="1678621142895" duration="107000" />
-      <workItem from="1678621316136" duration="32483000" />
+      <workItem from="1678621316136" duration="34430000" />
     </task>
     <servers />
   </component>

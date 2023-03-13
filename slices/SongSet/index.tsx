@@ -14,29 +14,35 @@ import { FilledContentRelationshipField } from "@prismicio/types";
  */
 const SongSet = ({ slice }: { slice: SongSetSlice }) => {
   return (
-    <section className="my-12">
+    <section className="my-8 sm:my-12">
       <div className="card w-full bg-base-100 shadow-xl">
         <div className="card-body">
           <div className="card-title">
             <PrismicRichText field={slice.primary.title} />
           </div>
-          <div className="flex">
-            Composer: <PrismicRichText field={slice.primary.composer} />
+          <div className="flex text-md font-medium text-gray-900">
+            <span className="mr-2">
+              Composer(s) <span className="text-gray-500">作曲者</span>:
+            </span>
+            <PrismicRichText field={slice.primary.composer} />
           </div>
-          <div className="flex">
+          <div className="flex text-md font-medium text-gray-900">
+            <span className="mr-2">
+              Language <span className="text-gray-500">言語</span>:
+            </span>
             <PrismicRichText field={slice.primary.language} />
           </div>
-          <div className="flex">
+          <div className="flex text-md font-medium text-gray-900">
+            <span className="mr-2">
+              Duration <span className="text-gray-500">演奏時間</span>:
+            </span>
             <PrismicRichText field={slice.primary.performance_duration} />
           </div>
         </div>
         <div className="divider -mt-4 -mb-2" />
 
         <div className="flow-root ">
-          <ul
-            role="list"
-            className="divide-y divide-gray-200 dark:divide-gray-700"
-          >
+          <ul role="list" className="divide-y divide-gray-200">
             {slice.items.map((item, index) => (
               <SongListItem key={index} index={index} data={item} />
             ))}
@@ -66,10 +72,10 @@ const SongListItem = ({
               {index + 1}.{" "}
             </div>
             <div className="w-full flex justify-between">
-              <div className="text-sm font-medium text-gray-900 truncate dark:text-white">
+              <div className="text-sm font-medium text-gray-900 truncate">
                 <PrismicRichText field={data.title} />
               </div>
-              <div className="text-sm font-medium text-gray-900 truncate dark:text-white">
+              <div className="text-sm font-medium text-gray-900 truncate">
                 <PrismicRichText field={data.performance_duration} />
               </div>
             </div>

@@ -22,7 +22,7 @@ const Home: FC<{
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Layout title={pageData.title!}>
-        <main className="mt-20 mx-auto flex flex-col md:flex-row items-center md:justify-center md:content-center gap-8">
+        <main className="mt-6 sm:mt-20 mx-auto flex flex-col md:flex-row items-center md:justify-center md:content-center gap-8">
           {projects.map((project) => (
             <ProjectCard
               key={project.id}
