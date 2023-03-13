@@ -1,0 +1,31 @@
+{
+  "_cts": {
+    "home_page": {},
+    "project": {},
+    "favorite": {},
+    "song": {}
+  },
+  "slices": {
+    "SongSet": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "AudioList": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "PerformanceHistory": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Video": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

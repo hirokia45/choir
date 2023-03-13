@@ -1,0 +1,36 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {},
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "performance_date",
+            {
+              "__TYPE__": "FieldContent",
+              "type": "Date",
+              "value": "2013-12-15"
+            }
+          ],
+          [
+            "event_name",
+            {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Ut quis nisi dolore culpa officia est. Pariatur mollit tempor incididunt minim."
+                  }
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

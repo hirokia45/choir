@@ -1,0 +1,9 @@
+{
+  "id": "favorite",
+  "label": "Favorite",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

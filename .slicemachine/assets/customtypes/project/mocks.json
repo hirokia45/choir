@@ -1,0 +1,137 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "shirt"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "can",
+    "type": "Text"
+  },
+  "description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Deserunt ea duis occaecat excepteur fugiat ex et exercitation reprehenderit qui non ad dolore voluptate. Laboris in cillum incididunt fugiat in ipsum do excepteur qui velit do Lorem cillum exercitation. Ex non pariatur excepteur ea ad nostrud officia duis culpa commodo quis."
+        }
+      }
+    ]
+  },
+  "thumbnail": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+      "width": 4000,
+      "height": 4000
+    },
+    "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a",
+    "width": 4000,
+    "height": 4000,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "song_set$1d51d284-57ad-4788-897c-31f1f3097288",
+        "name": "song_set",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Canal"
+                  }
+                }
+              ]
+            },
+            "composer": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Ex duis dolore tempor qui irure aliquip consectetur. Ullamco non fugiat mollit."
+                  }
+                }
+              ]
+            },
+            "language": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Adipisicing excepteur ut commodo esse consectetur eu veniam quis labore."
+                  }
+                }
+              ]
+            },
+            "performance_duration": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Officia excepteur minim elit. Deserunt proident anim ad ut sunt qui proident nisi deserunt et ad enim nostrud."
+                  }
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "title",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Ad est elit nulla labore tempor ea duis consequat cillum labore eiusmod excepteur veniam ut eu. Do id esse nisi qui cupidatat consectetur. Quis sint consequat sint nulla aliquip voluptate consectetur esse id adipisicing officia velit dolor."
+                        }
+                      }
+                    ]
+                  }
+                ],
+                [
+                  "link",
+                  {
+                    "__TYPE__": "LinkContent",
+                    "value": {
+                      "id": "mock_Media_link",
+                      "kind": "image/jpeg",
+                      "name": "mock_name",
+                      "url": "https://source.unsplash.com/daily",
+                      "size": "0",
+                      "__TYPE__": "FileLink"
+                    }
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

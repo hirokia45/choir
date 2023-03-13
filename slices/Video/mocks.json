@@ -1,0 +1,29 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "title": {
+        "__TYPE__": "FieldContent",
+        "value": "partly",
+        "type": "Text"
+      },
+      "embeded_id": {
+        "__TYPE__": "FieldContent",
+        "value": "solve",
+        "type": "Text"
+      },
+      "start_at": {
+        "__TYPE__": "FieldContent",
+        "value": "35",
+        "type": "Number"
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

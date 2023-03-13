@@ -1,0 +1,106 @@
+{
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "youth"
+  },
+  "title": {
+    "__TYPE__": "FieldContent",
+    "value": "wrote",
+    "type": "Text"
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
+      {
+        "key": "audio_list$9a6f6ffb-3b58-4d4b-9f6c-cc7daf99fced",
+        "name": "audio_list",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {},
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      },
+      {
+        "key": "performance_history$c1947aaf-10c9-4abb-aa8b-5979ee334477",
+        "name": "performance_history",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {},
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": [
+                [
+                  "performance_date",
+                  {
+                    "__TYPE__": "FieldContent",
+                    "type": "Date",
+                    "value": "2016-03-10"
+                  }
+                ],
+                [
+                  "event_name",
+                  {
+                    "__TYPE__": "StructuredTextContent",
+                    "value": [
+                      {
+                        "type": "paragraph",
+                        "content": {
+                          "text": "Id ea dolor sit aliqua enim fugiat ullamco deserunt deserunt aliquip aliquip aliqua reprehenderit. Voluptate et eu id dolore in irure aliqua nisi non minim aute commodo sint ad."
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "video$0e5890df-08d1-4e74-8fdf-04affbf90690",
+        "name": "video",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Peace"
+                  }
+                }
+              ]
+            },
+            "embeded_id": {
+              "__TYPE__": "FieldContent",
+              "value": "gold",
+              "type": "Text"
+            },
+            "start_at": {
+              "__TYPE__": "FieldContent",
+              "value": "50",
+              "type": "Number"
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

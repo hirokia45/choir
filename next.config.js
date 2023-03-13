@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const withPlugins = require("next-compose-plugins");
+const withImages = require("next-images");
+const withTM = require("next-transpile-modules")(["@madzadev/audio-player"]);
 
-module.exports = nextConfig
+const nextConfig = {
+  images: {
+    domains: ["images.prismic.io", "choir.cdn.prismic.io"],
+  },
+  reactStrictMode: true,
+};
+
+module.exports = withPlugins([[withTM]], nextConfig);
