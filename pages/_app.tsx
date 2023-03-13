@@ -4,7 +4,6 @@ import Link from "next/link";
 import { PrismicProvider } from "@prismicio/react";
 import { PrismicPreview } from "@prismicio/next";
 import { linkResolver, repositoryName } from "@/prismicio";
-import "@madzadev/audio-player/dist/index.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

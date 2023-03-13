@@ -10,7 +10,6 @@
     "slicemachine": "start-slicemachine"
   },
   "dependencies": {
-    "@madzadev/audio-player": "^1.1.11",
     "@prismicio/client": "^6.7.3",
     "@prismicio/helpers": "^2.3.9",
     "@prismicio/next": "^1.0.3",

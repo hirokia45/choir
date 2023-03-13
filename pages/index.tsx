@@ -13,7 +13,6 @@ const Home: FC<{
   pageData: HomePageDocumentData;
   projects: ProjectDocument<string>[];
 }> = ({ pageData, projects }) => {
-  console.log(projects);
   return (
     <>
       <Head>

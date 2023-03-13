@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="668d141b-01d8-4809-9cdd-928d9fdf7683" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/[uid].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects/[uid].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slices/AudioList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/AudioList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slices/PerformanceHistory/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/PerformanceHistory/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slices/SongSet/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/SongSet/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +60,16 @@
       <option name="presentableId" value="Default" />
       <updated>1678621139810</updated>
       <workItem from="1678621142895" duration="107000" />
-      <workItem from="1678621316136" duration="34430000" />
+      <workItem from="1678621316136" duration="34669000" />
     </task>
+    <task id="LOCAL-00001" summary="adjust style">
+      <created>1678707558854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707558855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +85,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adjust style" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust style" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

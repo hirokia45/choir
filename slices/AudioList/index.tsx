@@ -1,13 +1,9 @@
 import React from "react";
 import { PrismicRichText } from "@prismicio/react";
-// @ts-ignore
-import Player from "@madzadev/audio-player";
 import {
   AudioListSlice,
   AudioListSliceDefaultItem,
-  Simplify,
 } from "@/.slicemachine/prismicio";
-import * as prismicT from "@prismicio/types";
 
 /**
  * @typedef {import("@prismicio/client").Content.AudioListSlice} AudioListSlice
@@ -15,7 +11,6 @@ import * as prismicT from "@prismicio/types";
  * @param { AudioListProps }
  */
 const AudioList = ({ slice }: { slice: AudioListSlice }) => {
-  console.log(slice);
   return (
     <section className="my-8 sm:my-12">
       <div className="card card-compact sm:card-normal w-full bg-base-100 shadow-xl">
@@ -42,7 +37,6 @@ const AudioPlayer = ({
   data: AudioListSliceDefaultItem;
   isLastItem: boolean;
 }) => {
-  console.log(data);
   return (
     <>
       <div className="sm:flex justify-between">
