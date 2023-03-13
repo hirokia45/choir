@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="668d141b-01d8-4809-9cdd-928d9fdf7683" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slices/AudioList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/slices/AudioList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678621139810</updated>
       <workItem from="1678621142895" duration="107000" />
-      <workItem from="1678621316136" duration="34669000" />
+      <workItem from="1678621316136" duration="34826000" />
     </task>
     <task id="LOCAL-00001" summary="adjust style">
       <created>1678707558854</created>
@@ -69,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678707558855</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove library">
+      <created>1678707747109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707747109</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,7 +91,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adjust style" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust style" />
+    <MESSAGE value="remove library" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove library" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

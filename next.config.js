@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
-const withTM = require("next-transpile-modules")(["@madzadev/audio-player"]);
 
 const nextConfig = {
   images: {
@@ -10,4 +9,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = withPlugins([[withTM]], nextConfig);
+module.exports = withPlugins([], nextConfig);
